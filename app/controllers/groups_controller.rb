@@ -20,7 +20,7 @@ def create
 
   if @group.save
        redirect_to groups_path
-       eles
+     else
        render :new
      end
   end
