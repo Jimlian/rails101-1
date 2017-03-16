@@ -1,6 +1,6 @@
 <div class="col-md-12">
   <div class="group">
-
+  <%= link_to("Write a Post", new_group_post_path(@group), class: "btn btn-default pull-right")%>
   </div>
   <h2><%= @group.title %></h2>
   <p><%= @group.description %></p>
